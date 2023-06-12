@@ -20,7 +20,7 @@ Math.trunc(x)
 ### Parameters
 
 - `x`
-  - : A number.
+A number.
 
 ### Return value
 
@@ -48,7 +48,7 @@ Math.trunc(42.84); // 42
 Math.trunc(Infinity); // Infinity
 ```
 
-### Using bitwise no-ops to truncate numbers
+### Using bitwise no-ops to truncate numbers:
 
 > **Warning:** This is not a polyfill for `Math.trunc()` because of non-negligible edge cases.
 
